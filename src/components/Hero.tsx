@@ -83,12 +83,14 @@ const Hero = () => {
           <div className="flex-1 max-w-lg animate-slide-in-right">
             <div className="relative">
               <div className="absolute inset-0 bg-gradient-to-r from-blue-400 to-purple-600 rounded-full blur-2xl opacity-30 animate-pulse-slow"></div>
-              <div className="relative bg-gradient-to-br from-blue-500/20 to-purple-600/20 p-8 rounded-full backdrop-blur-sm border border-white/10">
-                <img
-                  src="/hency.jpg"
-                  alt="Hency Depani"
-                  className="w-full h-full rounded-full object-cover hover:scale-105 transition-transform duration-500"
-                />
+              <div className="relative bg-gradient-to-br from-blue-500/20 to-purple-600/20 p-8 rounded-full backdrop-blur-sm border border-white/10 flex items-center justify-center">
+                <div className="aspect-square w-64 h-64 rounded-full overflow-hidden flex items-center justify-center">
+                  <img
+                    src="/hency.jpg"
+                    alt="Hency Depani"
+                    className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
+                  />
+                </div>
               </div>
             </div>
           </div>
